@@ -37,8 +37,6 @@ export default {
 
     this.initMadpi();
     this.openPlayer();
-
-    window.addEventListener('blur', this.handlePageBlur);
   },
   onUnmounted() {
     if (this.player) {
@@ -46,10 +44,6 @@ export default {
     }
   },
   methods: {
-    handlePageBlur() {
-      this.player.pause()
-    },
-
     // 获取课程信息
     async queryCourseLogInfo() {
       const { data, msg, status } = await this.mdapi.callActionflow({
