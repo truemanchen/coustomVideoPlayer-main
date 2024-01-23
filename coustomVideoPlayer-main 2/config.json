@@ -1,0 +1,44 @@
+{
+  "customComponentItems": {
+    "VideoPlayer": {
+      "name": "VideoPlayer",
+      "imagePath": "preview/video.png",
+      "description": "视频课程播放自定义组件",
+      "itemInputs": [
+        {
+          "fieldName": "source",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "vid",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "playauth",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "course_log_pk",
+          "type": "INTEGER"
+        },
+        {
+          "fieldName": "cover",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "bullet_screen",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "url",
+          "type": "TEXT"
+        },
+        {
+          "fieldName": "actionflow_id",
+          "type": "TEXT"
+        }
+      ]
+    }
+  },
+  "version": "1.0.3"
+}
